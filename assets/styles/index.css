@@ -1,0 +1,362 @@
+.section-header {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #8e44ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-header h2 {
+  font-style: italic;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.buy-documents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  background-color: transparent;
+}
+.buy-documents span {
+  font-size: 1.6rem;
+}
+.buy-documents .buy-btn {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-weight: 900;
+  background-color: #08c982;
+}
+
+.section-one {
+  display: flex;
+}
+.section-one .section-one-first {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-one .section-one-first h1 {
+  font-size: 3.4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.section-one .section-one-first h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  line-height: 3.8rem;
+}
+.section-one .section-one-first h3 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3.2rem;
+  font-weight: 400;
+}
+.section-one .section-one-first .section-one-list-benefit {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-one .section-one-first .section-one-list-benefit span {
+  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+}
+.section-one .section-one-last {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-one .section-one-last img {
+  width: 90%;
+}
+
+.section-tow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.section-tow .section-tow-header {
+  display: flex;
+  flex-direction: column;
+}
+.section-tow .section-tow-header span {
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 3.8rem;
+}
+.section-tow .section-tow-header .section-tow-header-primary {
+  padding: 2rem 0;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4.4rem;
+  font-weight: 800;
+}
+.section-tow .section-tow-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-tow .section-tow-content .section-tow-content-list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-tow .section-tow-content .section-tow-content-list-item .section-tow-content-item {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  background-color: #8e44ad;
+  border-radius: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.section-tow .section-tow-content .section-tow-content-list-item .section-tow-content-item span {
+  font-size: 2rem;
+  color: white;
+  line-height: 3rem;
+}
+.section-tow .section-tow-content .section-tow-content-list-item .section-tow-content-item .section-tow-contenr-item-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-three .section-three-list-item {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.section-three .section-three-list-item span {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-top: 2rem;
+}
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.section-four .section-four-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-four .section-four-content .section-four-body {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.section-four .section-four-content .section-four-body .section-four-list-item {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8e44ad;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+.section-four .section-four-content .section-four-body .section-four-list-item span {
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+}
+
+.section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8e44ad;
+  color: white;
+}
+.section-form .section-form-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-sale {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.section-form .section-form-body h2 {
+  font-size: 2.6rem;
+  line-height: 3.6rem;
+  padding: 0.4rem 0;
+  text-align: center;
+}
+.section-form .section-form-body span {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.section-form .section-form-body .section-form-price {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-price h2 {
+  font-size: 2rem;
+}
+.section-form .section-form-body .section-form-price span {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.section-form .section-form-body .section-form-price .section-form-price-root {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: line-through;
+  opacity: 0.7;
+  line-height: 5rem;
+}
+.section-form .section-form-body .section-form-price .section-form-price-sale {
+  font-size: 6rem;
+  line-height: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.section-form .section-form-body .section-form-price .section-form-price-des {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.section-form .section-form-body .section-form-body-content {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-first {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-first img {
+  width: 80%;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .section-form-label {
+  padding-bottom: 1rem;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input::-moz-placeholder {
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input::placeholder {
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group span {
+  font-size: 1.8rem;
+  display: none;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox input {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2rem;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox span {
+  display: block;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-submit {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: #8e44ad;
+}
+
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8e44ad;
+  color: white;
+}
+.section-footer .footer-first {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.section-footer .footer-first span {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.section-footer .footer-last {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-footer .footer-last span {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.section-footer .footer-last a {
+  width: 30%;
+}
+.section-footer .footer-last a img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

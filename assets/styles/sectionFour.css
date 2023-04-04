@@ -1,0 +1,31 @@
+.section-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.section-four .section-four-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-four .section-four-content .section-four-body {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.section-four .section-four-content .section-four-body .section-four-list-item {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  background-color: #8e44ad;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+.section-four .section-four-content .section-four-body .section-four-list-item span {
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+}/*# sourceMappingURL=sectionFour.css.map */

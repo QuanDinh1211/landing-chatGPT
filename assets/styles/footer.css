@@ -1,0 +1,32 @@
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8e44ad;
+  color: white;
+}
+.section-footer .footer-first {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.section-footer .footer-first span {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.section-footer .footer-last {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-footer .footer-last span {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.section-footer .footer-last a {
+  width: 30%;
+}
+.section-footer .footer-last a img {
+  width: 100%;
+}/*# sourceMappingURL=footer.css.map */

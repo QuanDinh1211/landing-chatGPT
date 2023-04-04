@@ -1,0 +1,14 @@
+.section-header {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #8e44ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-header h2 {
+  font-style: italic;
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=header.css.map */

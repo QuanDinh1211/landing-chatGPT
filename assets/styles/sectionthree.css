@@ -1,0 +1,15 @@
+.section-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-three .section-three-list-item {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.section-three .section-three-list-item span {
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-top: 2rem;
+}/*# sourceMappingURL=sectionthree.css.map */

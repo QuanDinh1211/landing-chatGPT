@@ -1,0 +1,145 @@
+.section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8e44ad;
+  color: white;
+}
+.section-form .section-form-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-sale {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.section-form .section-form-body h2 {
+  font-size: 2.6rem;
+  line-height: 3.6rem;
+  padding: 0.4rem 0;
+  text-align: center;
+}
+.section-form .section-form-body span {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+.section-form .section-form-body .section-form-price {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-price h2 {
+  font-size: 2rem;
+}
+.section-form .section-form-body .section-form-price span {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.section-form .section-form-body .section-form-price .section-form-price-root {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: line-through;
+  opacity: 0.7;
+  line-height: 5rem;
+}
+.section-form .section-form-body .section-form-price .section-form-price-sale {
+  font-size: 6rem;
+  line-height: 7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.section-form .section-form-body .section-form-price .section-form-price-des {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.section-form .section-form-body .section-form-body-content {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-first {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-first img {
+  width: 80%;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .section-form-label {
+  padding-bottom: 1rem;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input::-moz-placeholder {
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group input::placeholder {
+  color: white;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group span {
+  font-size: 1.8rem;
+  display: none;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox input {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2rem;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox span {
+  display: block;
+}
+.section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-submit {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: #8e44ad;
+}/*# sourceMappingURL=sectionForm.css.map */
