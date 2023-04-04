@@ -1,0 +1,15 @@
+@import './mixin.scss';
+@import './_variable__';
+
+.section-header {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: $primary-color;
+    @include boxCenter();
+    h2 {
+        font-style: italic;
+        color: #fff;
+        font-size: 2.4rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+}

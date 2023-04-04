@@ -1,0 +1,37 @@
+@import './mixin.scss';
+@import './_variable__';
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-gray;
+    .section-four-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        .section-four-body {
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            .section-four-list-item {
+                width: 46%;
+                display: flex;
+                flex-direction: column;
+                background-color: $primary-color;
+                padding: 2rem 4rem;
+                border-radius: 1rem;
+
+                span {
+                    color: white;
+                    font-size: 2rem;
+                    line-height: 3rem;
+                    margin: 1rem 0;
+                }
+            }
+        }
+    }   
+}

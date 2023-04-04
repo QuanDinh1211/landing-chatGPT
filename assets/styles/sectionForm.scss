@@ -1,0 +1,163 @@
+@import './mixin.scss';
+@import './_variable__';
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary-color;
+    color: white;
+
+    .section-form-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .section-form-body-sale {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+
+        h2 {
+            font-size: 2.6rem;
+            line-height: 3.6rem;
+            padding: 0.4rem 0;
+            text-align: center;
+        }
+
+        span {
+            font-size: 2rem;
+            line-height: 3rem;
+            text-align: center;
+        }
+
+        .section-form-price {
+            margin-top: 3rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                font-size: 2rem;
+            }
+
+            span {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
+
+            .section-form-price-root {
+                font-size: 4rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                text-decoration: line-through;
+                opacity: 0.7;
+                line-height: 5rem;
+            }
+
+            .section-form-price-sale {
+                font-size: 6rem;
+                line-height: 7rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+            }
+
+            .section-form-price-des {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
+        }
+
+        .section-form-body-content {
+            margin-top: 4rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .section-form-body-first {
+                width: 50%;
+                @include boxCenter();
+                img {
+                    width: 80%;
+                }
+            }
+
+            .section-form-body-last {
+                width: 50%;
+                @include boxCenter();
+
+                .section-form-element {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1rem;
+                    align-items: center;
+
+                    .section-form-label {
+                        padding-bottom: 1rem;
+                    }
+                    .form-group {
+                        width: 100%;
+                        margin: 1rem 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        // background-color: white;
+
+                        input {
+                            width: 100%;
+                            height: 5rem;
+                            padding: 1rem;
+                            font-size: 2rem;
+                            background-color: transparent;
+                            border: none;
+                            outline: none;
+                            border: 1px solid white;
+                            border-radius: 0.4rem;
+                            color: white;
+                        }
+
+
+                        input::placeholder {
+                            color: white;
+                          }
+
+                        span {
+                            font-size: 1.8rem;
+                            display: none;
+                        }
+
+                        &.checkbox {
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+
+                            input {
+                                width: 2rem;
+                                height: 2rem;
+                                margin: 0 2rem;
+                            }
+
+                            span {
+                                display: block;
+                            }
+                        }
+                    }
+
+                    .form-submit {
+                        margin-top: 2rem;
+                        width: 20rem;
+                        height: 5rem;
+                        border-radius: 0.4rem;
+                        outline: none;
+                        border: none;
+                        font-size: 2rem;
+                        font-weight: 800;
+                        font-family: 'Montserrat', sans-serif;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

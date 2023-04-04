@@ -1,0 +1,49 @@
+@import './mixin.scss';
+
+.section-one {
+    display: flex;
+    
+    .section-one-first {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 3.4rem;
+            text-align: center;
+            line-height: 4rem;
+        }
+        h2 {
+            font-size: 2.8rem;
+            text-align: center;
+            line-height: 3.8rem; 
+        }
+        h3 {
+            font-size: 2rem;
+            text-align: center;
+            line-height: 3.2rem;
+            font-weight: 400;
+        }
+
+        .section-one-list-benefit {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            span {
+                margin-top: 1rem;
+                font-size: 2rem;
+                line-height: 3rem;
+                font-weight: 400;
+            }
+        }
+    }
+    .section-one-last {
+        width: 50%;
+        @include boxCenter();
+        img {
+            width: 90%;
+        }
+    }
+}

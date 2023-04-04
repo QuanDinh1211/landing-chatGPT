@@ -1,0 +1,64 @@
+@import './mixin.scss';
+@import './_variable__';
+
+
+.section-tow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-gray;
+    .section-tow-header {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 2.4rem;
+            text-align: center;
+            line-height: 3.8rem;
+        }
+
+        .section-tow-header-primary {
+            padding: 2rem 0;
+            font-size: 4rem;
+            text-align: center;
+            line-height: 4.4rem;
+            font-weight: 800;
+        }
+    }
+
+    .section-tow-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .section-tow-content-list-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .section-tow-content-item {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                padding: 2rem 4rem;
+                background-color: $primary-color;
+                border-radius: 1rem;
+                text-align: center;
+                margin-top: 2rem;
+                span {
+                    font-size: 2rem;
+                    color: white;
+                    line-height: 3rem;
+                    
+                }
+
+                .section-tow-contenr-item-title {
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
