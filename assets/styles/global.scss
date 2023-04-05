@@ -49,6 +49,9 @@ html {
     @include responsive(tablet-min) {
         @include pd(6%);
     }
+    @include responsive(phone) {
+        @include pd(6%);
+    }
 }
 
 .section-title {

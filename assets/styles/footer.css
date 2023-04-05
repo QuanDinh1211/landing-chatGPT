@@ -37,4 +37,16 @@
   .section-footer .footer-last {
     width: 40%;
   }
+}
+@media (max-width: 600px) {
+  .section-footer {
+    flex-direction: column-reverse;
+  }
+  .section-footer .footer-first {
+    width: 100%;
+  }
+  .section-footer .footer-last {
+    margin-bottom: 4rem;
+    width: 60%;
+  }
 }/*# sourceMappingURL=footer.css.map */

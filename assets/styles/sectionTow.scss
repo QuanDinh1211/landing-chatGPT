@@ -48,6 +48,7 @@
                 text-align: center;
                 margin-top: 2rem;
                 span {
+                    margin-top: 1rem;
                     font-size: 2rem;
                     color: white;
                     line-height: 3rem;
@@ -67,6 +68,16 @@
             .section-tow-content-list-item {
                 .section-tow-content-item {
                     width: 75%;
+                }
+            }
+        }
+    }
+
+    @include responsive(phone) {
+        .section-tow-content {
+            .section-tow-content-list-item {
+                .section-tow-content-item {
+                    width: 100%;
                 }
             }
         }

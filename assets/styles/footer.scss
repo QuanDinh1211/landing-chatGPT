@@ -47,4 +47,17 @@
             width: 40%;
         }
     }
+
+    @include responsive(phone) {
+        flex-direction: column-reverse;
+
+        .footer-first {
+            width: 100%;
+        }
+        
+        .footer-last {
+            margin-bottom: 4rem;
+            width: 60%;
+        }
+    }
 }

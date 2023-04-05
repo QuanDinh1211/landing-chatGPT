@@ -21,4 +21,11 @@
         font-weight: 900;
         background-color: $button-color;
     }
+
+    @include responsive(phone) {
+        .buy-btn {
+            font-size: 1.6rem;
+            padding: 2rem;
+        }
+    }
 }

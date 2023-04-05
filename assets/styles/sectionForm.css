@@ -142,4 +142,23 @@
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
   color: #8e44ad;
+}
+@media (max-width: 600px) {
+  .section-form .section-form-body .section-form-body-content {
+    flex-direction: column;
+  }
+  .section-form .section-form-body .section-form-body-content .section-form-body-first {
+    width: 90%;
+  }
+  .section-form .section-form-body .section-form-body-content .section-form-body-last {
+    width: 100%;
+  }
+  .section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .section-form .section-form-body .section-form-body-content .section-form-body-last .section-form-element .form-group.checkbox input {
+    width: 3rem;
+    height: 3rem;
+  }
 }/*# sourceMappingURL=sectionForm.css.map */
