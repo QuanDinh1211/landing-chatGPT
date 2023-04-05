@@ -33,5 +33,17 @@
                 }
             }
         }
-    }   
+    }
+
+    @include responsive(tablet-min) {
+        .section-four-content {
+            .section-four-body {
+                width: 100%;
+    
+                .section-four-list-item {
+                    padding: 2rem;
+                }
+            }
+        }
+    }
 }

@@ -50,4 +50,9 @@
 .section-tow .section-tow-content .section-tow-content-list-item .section-tow-content-item .section-tow-contenr-item-title {
   font-weight: 700;
   margin-bottom: 1rem;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .section-tow .section-tow-content .section-tow-content-list-item .section-tow-content-item {
+    width: 75%;
+  }
 }/*# sourceMappingURL=sectionTow.css.map */

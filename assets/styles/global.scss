@@ -37,6 +37,18 @@ html {
 .section-container {
     width: 100%;
     @include pd(14%);
+
+    @include responsive(min-destop) {
+        @include pd(10%);
+    }
+
+    @include responsive(tablet) {
+        @include pd(4%);
+    }
+
+    @include responsive(tablet-min) {
+        @include pd(6%);
+    }
 }
 
 .section-title {

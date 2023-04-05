@@ -29,4 +29,12 @@
 }
 .section-footer .footer-last a img {
   width: 100%;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .section-footer .footer-first {
+    width: 60%;
+  }
+  .section-footer .footer-last {
+    width: 40%;
+  }
 }/*# sourceMappingURL=footer.css.map */

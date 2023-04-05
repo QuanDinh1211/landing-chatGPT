@@ -37,4 +37,14 @@
             }
         }
     }
+
+    @include responsive(tablet-min) {
+        .footer-first {
+            width: 60%;
+        }
+        
+        .footer-last {
+            width: 40%;
+        }
+    }
 }

@@ -61,4 +61,14 @@
             }
         }
     }
+
+    @include responsive(tablet-min) {
+        .section-tow-content {
+            .section-tow-content-list-item {
+                .section-tow-content-item {
+                    width: 75%;
+                }
+            }
+        }
+    }
 }
